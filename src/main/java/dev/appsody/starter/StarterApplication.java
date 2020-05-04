@@ -5,5 +5,6 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/starter")
 public class StarterApplication extends Application {
+    System.out.println("This is the start of an application");
 
 }
